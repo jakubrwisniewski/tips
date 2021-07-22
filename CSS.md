@@ -80,3 +80,21 @@ aside {
   inset: 1px 2px 3px 4px;
 }
 ```
+
+---
+
+Light / Dark mode support
+```css {
+@media (prefers-color-scheme: dark) {
+  body {
+    background: black;
+    color: white;
+  }
+}
+@media (prefers-color-scheme: light) {
+  body {
+    background: white;
+    color: black;
+  }
+}
+}
