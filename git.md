@@ -25,3 +25,10 @@ git reset --hard commit-hash
 git stash -u
 git push -f origin/current-branch-name
 ```
+
+---
+
+### Stash only unstaged files
+```
+git stash save --keep-index
+```
