@@ -1,3 +1,4 @@
 # Code Tips and Tricks
 
-1. [CSS](https://github.com/jakubrwisniewski/tips/blob/main/CSS.md)
+1. [JavaScript](https://github.com/jakubrwisniewski/tips/blob/main/JavaScript.md)
+2. [CSS](https://github.com/jakubrwisniewski/tips/blob/main/CSS.md)
