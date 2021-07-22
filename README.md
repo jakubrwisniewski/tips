@@ -1,2 +1,3 @@
-# tips
-Coding tips and tricks, short parts of code
+# Code Tips and Tricks
+
+1. [CSS](https://github.com/jakubrwisniewski/tips/blob/main/CSS.md)
