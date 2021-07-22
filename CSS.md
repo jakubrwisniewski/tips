@@ -1,3 +1,4 @@
+### Better CSS reset
 We can use `:where` selector for reseting default CSS styles. `:where` always has 0 specifity.
 ```css
 :where(ul[class]) {
@@ -11,6 +12,7 @@ We can use `:where` selector for reseting default CSS styles. `:where` always ha
 
 ---
 
+### Limit text length by characters count
 To nicely limit text to some length we can use `ch` unit - `1ch` is equal to single character length
 ```css
 p {
@@ -20,6 +22,7 @@ p {
 
 ---
 
+### Video scaling by aspect ratio
 To properly scale video we can use `aspect-ratio` property
 ```css
 video {
@@ -30,7 +33,7 @@ video {
 
 ---
 
-Make flex items to be spaced
+### Make flex items to be spaced
 
 ```css
 .flex {
@@ -41,7 +44,7 @@ Make flex items to be spaced
 
 ---
 
-Display multiline text without mapping newline characters to `<br>`
+### Display multiline text without mapping newline characters to `<br>`
 ```css
 section {
   white-space: pre-line;
@@ -50,7 +53,7 @@ section {
 
 ---
 
-Prevent text selection
+### Prevent text selection
 ```css
 article {
   user-select: none;
@@ -59,7 +62,7 @@ article {
 
 ---
 
-Change color of text selection
+### Change color of text selection
 ```css
 ::selection {
   background-color: deeppink;
@@ -69,7 +72,7 @@ Change color of text selection
 
 ---
 
-Alternative for position `top` `left` `right` `bottom` properties
+### Alternative for position `top` `left` `right` `bottom` properties
 ```css
 div {
   position: absolute;
@@ -83,7 +86,7 @@ aside {
 
 ---
 
-Light / Dark mode support
+### Light / Dark mode support
 ```css {
 @media (prefers-color-scheme: dark) {
   body {
@@ -101,7 +104,7 @@ Light / Dark mode support
 
 ---
 
-Trimming tekst
+### Trimming text
 ```css
 .text {
   width: 100px;
