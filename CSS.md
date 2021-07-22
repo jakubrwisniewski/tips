@@ -56,3 +56,27 @@ article {
   user-select: none;
 }
 ```
+
+---
+
+Change color of text selection
+```css
+::selection {
+  background-color: deeppink;
+  color: white;
+}
+```
+
+---
+
+Alternative for position `top` `left` `right` `bottom` properties
+```css
+div {
+  position: absolute;
+  inset: 1rem;
+}
+aside {
+  position: relative;
+  inset: 1px 2px 3px 4px;
+}
+```
