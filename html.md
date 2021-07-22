@@ -41,3 +41,11 @@ So far only Mobile Chrome in light mode
   Download
 </a>
 ```
+
+---
+
+### Image lazy loading
+It will load the image when `img` tag is close to visible viewport
+```html
+<img loading="lazy" src="image.png" />
+```
