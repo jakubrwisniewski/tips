@@ -8,3 +8,22 @@ We can use `:where` selector for reseting default CSS styles. `:where` always ha
   list-style: square; /* keep squares for custom list */
 }
 ```
+
+---
+
+To nicely limit tekst to some lenght we can use `ch` unit - `1ch` is equal to single character length
+```css
+p {
+  max-width: 75ch
+}
+```
+
+---
+
+To properly scale video we can use `aspect-ratio` property
+```css
+video {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+```
