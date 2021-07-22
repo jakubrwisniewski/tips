@@ -11,7 +11,7 @@ We can use `:where` selector for reseting default CSS styles. `:where` always ha
 
 ---
 
-To nicely limit tekst to some lenght we can use `ch` unit - `1ch` is equal to single character length
+To nicely limit text to some length we can use `ch` unit - `1ch` is equal to single character length
 ```css
 p {
   max-width: 75ch
