@@ -27,3 +27,32 @@ video {
   aspect-ratio: 16/9;
 }
 ```
+
+---
+
+Make flex items to be spaced
+
+```css
+.flex {
+  display: flex;
+  gap; 10px; /* space between items set to 10px  */
+}
+```
+
+---
+
+Display multiline text without mapping newline characters to `<br>`
+```css
+section {
+  white-space: pre-line;
+}
+```
+
+---
+
+Prevent text selection
+```css
+article {
+  user-select: none;
+}
+```
