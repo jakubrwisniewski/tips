@@ -97,4 +97,16 @@ Light / Dark mode support
     color: black;
   }
 }
+```
+
+---
+
+Trimming tekst
+```css
+.text {
+  width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
+```
