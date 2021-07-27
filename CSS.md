@@ -113,3 +113,96 @@ aside {
   text-overflow: ellipsis;
 }
 ```
+
+---
+
+### Limit visible lines of text
+```css
+.box {
+    -webkit-line-clamp: 2; /* how many lines to show */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+```
+
+---
+
+### Arrows in pure CSS
+```css
+.arrow-up {
+	width: 0; 
+	height: 0; 
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid black;
+}
+
+.arrow-down {
+	width: 0; 
+	height: 0; 
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid red;
+}
+
+.arrow-right {
+	width: 0; 
+	height: 0; 
+	border-top: 30px solid transparent;
+	border-bottom: 30px solid transparent;
+	border-left: 30px solid green;
+}
+
+.arrow-left {
+	width: 0; 
+	height: 0; 
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent; 
+	border-right:10px solid blue; 
+}
+```
+
+---
+
+### Custom scrollbar style
+```css
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: pink;
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: deeppink;
+  border-radius: 12px;
+}
+```
+
+---
+
+### Center content
+```html
+<div class="container">
+  <div>center</div>
+</div>
+```
+```css
+/* Using grid */
+.container {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+
+/* Using flex */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+```
