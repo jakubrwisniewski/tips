@@ -119,3 +119,42 @@ window.addEventListener('offline', callback);
 const urlSearchParams = new URLSearchParams(location.search);
 const value = urlSearchParams.get('key');
 ```
+
+---
+
+### Generate seven last days
+```js
+[...Array(7).keys()].map(days => new Date(Date.now() - 86400000 * days))
+```
+
+---
+
+## Alphabetical sorting
+```js
+["a", "z", "ą"].sort((a, b) => a.localeCompare(b)); // ["a", "ą", "z"]
+```
+
+---
+
+### Validate url
+```js
+function validateUrl(url) => {
+    try {
+        new URL(url);
+        return true;
+    }
+        catch(error) {
+        return false;
+    }
+}
+```
+
+---
+
+### Relative formatted difference between dates
+```js
+const rtf = new Intl.RelativeTimeFormat('en', { numeric: 'auto' });
+const formatDays = (days) => rtf.format(days, 'day'); // "year", "quarter", "month", "week", "day", "hour", "minute", "second"
+
+formatDays(10); // in 10 days
+```
