@@ -158,3 +158,14 @@ const formatDays = (days) => rtf.format(days, 'day'); // "year", "quarter", "mon
 
 formatDays(10); // in 10 days
 ```
+
+---
+
+### Clipboard support
+```js
+// read from clipboard
+const text = await navigator.clipboard.readText();
+
+// write to clipboard
+await navigator.clipboard.writeTexT('some text');
+```
