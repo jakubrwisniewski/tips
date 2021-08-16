@@ -1,1 +1,1 @@
-![JavaScript.md](JavaScript)
+![](JavaScript.md)
