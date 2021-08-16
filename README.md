@@ -1,7 +1,7 @@
 # Development Tips and Tricks
 
 <div style="display: grid; gap: 20px; width: 100%;">
-  <a href="JavaScript.md" style="display: block";>
+  <a href="JavaScript.md">
     <img src="./icons/javascript-original.svg" height="100">
     JavaScript
   </a>
