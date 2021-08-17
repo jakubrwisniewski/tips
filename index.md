@@ -1,4 +1,4 @@
-<div style="display: grid; gap: 20px; width: 100%; grid-template-columns: repeat(2, 1fr);">
+<div style="display: grid; gap: 60px; width: 100%; grid-template-columns: repeat(2, 1fr);">
   <a href="docs/js" style="display: block; text-align: center;">
     <img src="./icons/javascript-original.svg" height="100" style="display: inline-block; margin-bottom: 10px;">
     <div>JavaScript</div>
