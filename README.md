@@ -1,9 +1,9 @@
-# Development Tips And Tricks
+# Coding Tips And Tricks
 
-[JavaScript](JavaScript.md)
+[JavaScript](docs/js.md)
 
-[CSS](CSS.md)
+[CSS](docs/css.md)
 
-[HTML](html.md)
+[HTML](docs/html.md)
 
-[GIT](git.md)
+[GIT](docs/git.md)
