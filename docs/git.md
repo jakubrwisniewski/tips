@@ -1,3 +1,5 @@
+# GIT
+
 ### Undo last commit without losing changes
 ```
 git reset --soft HEAD~1
