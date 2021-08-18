@@ -49,3 +49,17 @@ It will load the image when `img` tag is close to visible viewport
 ```html
 <img loading="lazy" src="image.png" />
 ```
+
+---
+
+### Autofocus input
+```html
+<input type="text" autofocus />
+```
+
+---
+
+### Validate input value by regex
+```html
+<input type="text" pattern="\d{4}-\d{2}-\d{2}" /> <!-- Autovalidates input on submit to match numeric format like 2000-01-01 -->
+```
