@@ -61,5 +61,6 @@ It will load the image when `img` tag is close to visible viewport
 
 ### Validate input value by regex
 ```html
-<input type="text" pattern="\d{4}-\d{2}-\d{2}" /> <!-- Autovalidates input on submit to match numeric format like 2000-01-01 -->
+<input type="text" pattern="\d{4}-\d{2}-\d{2}" />
+<!-- Autovalidates input on submit to match numeric format like 2000-01-01 -->
 ```
