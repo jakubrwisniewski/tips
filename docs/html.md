@@ -66,3 +66,11 @@ It will load the image when `img` tag is close to visible viewport
 <input type="text" pattern="\d{4}-\d{2}-\d{2}" />
 <!-- Autovalidates input on submit to match numeric format like 2000-01-01 -->
 ```
+
+---
+
+
+### Hide element with HTML
+```html
+<div hidden>Hidden content</div>
+```
