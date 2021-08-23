@@ -69,8 +69,15 @@ It will load the image when `img` tag is close to visible viewport
 
 ---
 
-
 ### Hide element with HTML
 ```html
 <div hidden>Hidden content</div>
+```
+
+---
+
+### Native input clear button
+```html
+<input type="search">
+<!-- type some text and clear button will show -->
 ```
