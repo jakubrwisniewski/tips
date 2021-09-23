@@ -1,5 +1,20 @@
 # JavaScript
 
+### Convert map, set to object
+```js
+const map = new Map();
+map.set('i', 'Ivan');
+map.set('j', 'John');
+Object.fromEntries(map.entries()); // { i: 'Ivan', j: 'John' }
+
+const set = new Set();
+set.add('Ivan');
+set.add('John');
+Object.fromEntries(set.entries()); // { Ivan: 'Ivan', John: 'John' }
+```
+
+---
+
 ### Create multiple dots
 ```js
 '.'.repeat(5); // .....
@@ -108,7 +123,7 @@ form.elements // HTMLFormControlsCollection []
 if(navigator.onLine) { // true | false
     // do something
 }
- 
+
 // Update the online status changes
 window.addEventListener('online',  callback);
 window.addEventListener('offline', callback);
