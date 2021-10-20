@@ -1,5 +1,19 @@
 # JavaScript
 
+### Quickly remove property from object
+```js
+const data = {
+    id: 10,
+    firstName: 'John',
+    lastName: 'Doe'
+};
+
+const { id, ...nextData } = data;
+console.log(nextData); // { firstName: "John", lastName: "Doe" }
+```
+
+---
+
 ### Convert map, set to object
 ```js
 const map = new Map();
