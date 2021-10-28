@@ -1,5 +1,14 @@
 # JavaScript
 
+### Shortest way to get max or min value from array
+```js
+const numbers = [5, 3, 8, 1, 4, 7];
+const min = Math.min(...numbers); // 1
+const max = Math.max(...numbers); // 8
+```
+
+---
+
 ### Quickly remove property from object
 ```js
 const data = {
