@@ -40,7 +40,7 @@ video {
 ```css
 .flex {
   display: flex;
-  gap; 10px; /* space between items set to 10px  */
+  gap: 10px; /* space between items set to 10px  */
 }
 ```
 
