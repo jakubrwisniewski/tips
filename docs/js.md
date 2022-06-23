@@ -115,6 +115,7 @@ element.addEventListener('click', () => null, { once: true });
 ### Smooth scrolling to element
 ```js
 window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+document.querySelector("div").scrollIntoView({ behavior: "smooth" });
 ```
 
 ---
