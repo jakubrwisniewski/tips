@@ -1,7 +1,7 @@
 # JavaScript
 
 ### Native deep copy
-https://caniuse.com/mdn-api_structuredclone
+[CanIUse structuredClone](https://caniuse.com/mdn-api_structuredclone)
 
 ```js
 const source = {
