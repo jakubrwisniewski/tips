@@ -1,5 +1,19 @@
 # JavaScript
 
+### Native deep copy
+https://caniuse.com/mdn-api_structuredclone
+
+```js
+const source = {
+	nested: { "Nested" },
+	plain: "Plain"
+};
+
+const copied = structuredClone(source);
+
+source.nested === copied.nested // false
+```
+
 ### Shortest way to get max or min value from array
 ```js
 const numbers = [5, 3, 8, 1, 4, 7];
